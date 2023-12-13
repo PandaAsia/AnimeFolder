@@ -1,8 +1,13 @@
-# React + Vite
+# ¡Bienvenido a AnimeFolder, tu destino definitivo para explorar el emocionante mundo del anime! 🌟
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Explora Temporadas
 
-Currently, two official plugins are available:
+Descubre las últimas temporadas de anime y sumérgete en un viaje lleno de emociones. Nuestra plataforma te permite explorar una amplia variedad de géneros y encontrar las gemas ocultas que te harán vibrar.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Detalles del Anime
+
+Explora la información detallada de cada anime, desde sinopsis cautivadoras hasta detalles sobre el elenco y el equipo de producción. ¿Listo para sumergirte en mundos fascinantes?
+
+## ¡Comienza tu Aventura Anime!
+
+AnimeFolder  es el lugar perfecto para los fanáticos del anime que buscan explorar, descubrir y conectarse con una comunidad apasionada. ¿Qué estás esperando? ¡Sumérgete en el mundo del anime hoy mismo! 🌈🎉
