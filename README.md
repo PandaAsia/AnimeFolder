@@ -23,6 +23,8 @@ AnimeFolder es el lugar perfecto para los fanáticos del anime que buscan explor
 ![Markdown](https://img.shields.io/badge/-Markdown-000000?style=flat-square&logo=markdown)
 ![Npm](https://img.shields.io/badge/-npm-CB3837?style=flat-square&logo=npm)
 ![Figma](https://img.shields.io/badge/-Figma-%23F7DF1C?style=flat-square&logo=figma&logoColor=000000&labelColor=%23F7DF1C&color=%23FFCE5A)
+![Git](https://img.shields.io/badge/-Git-%23F05032?style=flat-square&logo=git&logoColor=%23ffffff)
+![GitHub](https://img.shields.io/badge/-GitHub-181717?style=flat-square&logo=github)
 
 ## Extra
 
