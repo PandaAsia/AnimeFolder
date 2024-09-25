@@ -1,0 +1,285 @@
+/* ********** Custom Properties ********** */
+:root {
+  --PrimaryColor: #fdb6b7;
+  --SecontColor: #494e5d;
+  --ThreeColor: #cbcccb;
+  --fourColor: #2d2d2d;
+  --black-alpha-color: rgba(0, 0, 0, 0.3);
+}
+
+/* ********** Reset Styles ********** */
+
+.box-sizing {
+  box-sizing: content-box !important;
+}
+
+body {
+  background-color: var(--SecontColor) !important;
+}
+
+/* ********** Boostrap ********** */
+.form-select:focus {
+  border-color: var(--PrimaryColor);
+  outline: 0;
+  box-shadow: 0 0 0 0.1rem var(--PrimaryColor);
+}
+
+select .select-options {
+  background-color: white !important;
+  color: var(--fourColor) !important;
+}
+
+select .select-options:hover {
+  background-color: var(--fourColor) !important;
+  color: white !important;
+}
+
+.navbar-100 {
+  width: auto;
+  height: 100vh;
+}
+
+/* ********** My Styles ********** */
+
+.bg-second-alpha-color {
+  background-color: var(--black-alpha-color);
+}
+
+.bg-hero-img {
+  background-image: var(--bg-imagen);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.PrimaryColor {
+  background-color: var(--PrimaryColor) !important;
+}
+
+.btn-hover-Secontcolor {
+  background-color: var(--SecontColor) !important;
+}
+
+/* --------------------------------- */
+
+.bg-color-therrColor {
+  background-color: var(--ThreeColor);
+}
+
+.bg-color-footer {
+  background-color: var(--fourColor);
+  color: white;
+}
+
+.text-size-small {
+  font-size: 12px !important;
+}
+
+.bg-color-btn1 {
+  background-color: var(--PrimaryColor) !important;
+  color: var(--SecontColor) !important;
+}
+
+.bg-color-btn1:hover {
+  background-color: var(--ThreeColor) !important;
+  color: white !important;
+}
+.bg-color-btn1-active {
+  background-color: var(--ThreeColor) !important;
+  pointer-events: none;
+}
+
+.bg-color-btn2 {
+  background-color: var(--ThreeColor) !important;
+  color: var(--fourColor) !important;
+}
+
+.bg-color-btn2:hover {
+  background-color: var(--fourColor) !important;
+  color: var(--PrimaryColor) !important;
+}
+
+.bg-color-btn3 {
+  background-color: var(--fourColor) !important;
+  color: var(--PrimaryColor) !important;
+}
+
+.bg-color-btn-active {
+  background-color: var(--PrimaryColor) !important;
+  color: var(--SecontColor) !important;
+}
+
+.bg-color-btn3:hover {
+  background-color: var(--ThreeColor) !important;
+  color: var(--fourColor) !important;
+}
+
+.info-anime {
+  text-align: center;
+}
+
+.info-anime nav > a {
+  margin: 0.3rem 0.1rem;
+}
+
+.title-anime {
+  font-size: 12px;
+}
+
+.title-anime img {
+  transition: all 0.3s ease-in-out;
+}
+
+.title-anime:hover img {
+  transform: scale(1.2) !important;
+  opacity: 0.7;
+  border-radius: 1rem;
+}
+
+.bg-color-card {
+  background-color: var(--SecontColor) !important;
+}
+
+.bg-color-card:hover {
+  background-color: var(--fourColor) !important;
+}
+
+.text-not-decoration {
+  text-decoration: none;
+}
+
+.btn-enlace {
+  color: white !important;
+  transition: all 0.3s ease-in-out;
+}
+
+.btn-enlace:hover {
+  color: var(--SecontColor) !important;
+  transform: scale(1.1);
+}
+
+.btn-enlace2 {
+  color: var(--SecontColor) !important;
+  pointer-events: none;
+}
+
+.btn-enlace1 {
+  color: white !important;
+  transition: all 0.2s ease-in-out;
+}
+
+.btn-enlace1:hover {
+  color: var(--fourColor) !important;
+  transform: scale(1.1);
+}
+
+.text-color-primary {
+  color: var(--PrimaryColor) !important;
+}
+
+.text-p-size {
+  font-size: 14px;
+}
+
+.text-bg-ThreeColor {
+  color: var(--ThreeColor) !important;
+}
+
+.text-bg-fourColor {
+  color: var(--fourColor) !important;
+}
+
+.text-bg-disble {
+  color: var(--black-alpha-color) !important;
+}
+
+.bg-color-pagi {
+  background-color: transparent !important;
+}
+.bg-color-pagi:hover {
+  background-color: transparent !important;
+  color: var(--PrimaryColor) !important;
+}
+
+.img-size {
+  width: 100% !important;
+  height: 210px !important;
+}
+
+.img-size2 {
+  width: 110px !important;
+  height: 150px !important;
+}
+
+.img-size3 {
+  width: 170px !important;
+  height: 170px !important;
+  object-fit: cover;
+}
+
+.text-title {
+  text-align: center !important;
+}
+
+/* // X-Small devices (portrait phones, less than 576px)
+// No media query for `xs` since this is the default in Bootstrap
+
+// Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) {
+  .img-size {
+    height: 180px !important;
+  }
+
+  .text-title {
+    text-align: left !important;
+  }
+
+  .margin-img-main {
+    padding: 1rem 6rem !important;
+  }
+
+  .info-anime {
+    text-align: left;
+  }
+}
+
+/* // Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+  .img-size {
+    height: 180px !important;
+  }
+
+  .margin-img-main {
+    padding: 1rem 10rem !important;
+  }
+}
+
+/* // Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+  .navbar-100 {
+    width: auto;
+    height: auto;
+  }
+
+  .margin-img-main {
+    padding: 0.8rem !important;
+  }
+}
+
+/* // X-Large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+  .img-size {
+    height: 220px !important;
+  }
+}
+
+/* // XX-Large devices (larger desktops, 1400px and up) */
+@media (min-width: 1400px) {
+  .img-size {
+    height: 250px !important;
+  }
+}
+
+.white-space {
+  white-space: pre-wrap;
+}
